@@ -1,4 +1,4 @@
-import {  HashRouter as Router,Route,Routes } from 'react-router-dom';
+import {  HashRouter as Router ,Route,Routes } from 'react-router-dom';
 
 
 import Blog from "./pages/blog"
@@ -13,9 +13,9 @@ function App() {
       <Header />
 
         <Routes>
-          <Route path='/' element={<Homepage />}></Route>
-          <Route path='/blog' element={<Blog />}></Route>
-          <Route path='/blog/:slug' element={<Blgopost />}></Route>
+          <Route path='/react-blog-test' element={<Homepage />}></Route>
+          <Route path='react-blog-test/blog' element={<Blog />}></Route>
+          <Route path='react-blog-test/blog/:slug' element={<Blgopost />}></Route>
           <Route path='*' element={<Erorr />}></Route>
         </Routes>
       </Router>
