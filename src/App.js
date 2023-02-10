@@ -13,9 +13,9 @@ function App() {
       <Header />
 
         <Routes>
-          <Route path='/' element={<Homepage />}></Route>
-          <Route path='/blog' element={<Blog />}></Route>
-          <Route path='/blog/:slug' element={<Blgopost />}></Route>
+          <Route path='https://andiicodes.github.io/react-blog-test/' element={<Homepage />}></Route>
+          <Route path='https://andiicodes.github.io/react-blog-test/blog' element={<Blog />}></Route>
+          <Route path='https://andiicodes.github.io/react-blog-test/blog/:slug' element={<Blgopost />}></Route>
           <Route path='*' element={<Erorr />}></Route>
         </Routes>
       </BrowserRouter>
