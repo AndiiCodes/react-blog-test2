@@ -9,13 +9,13 @@ export default function Header() {
     <nav>
         <ul className='flex'>
             <li className='mr-6'>
-                <Link to={"/"}>
+                <Link to={"/react-blog-test2"}>
                     <h2>Home</h2>
                 </Link>
             </li>
             
             <li>
-                <Link to={"/blog"}>
+                <Link to={"/react-blog-test2/blog"}>
                     <h2>blog</h2>
                 </Link>
             </li>
